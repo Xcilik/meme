@@ -8,8 +8,8 @@ const bodyParser = require('body-parser')
 const axios = require("axios");
 const PORT = 3000;
 
-const token = 'YOUR_BOT_TOKEEN'
-const id = 'YOUR_CHAT_ID'
+const token = '7833060237:AAGYt8nKFRLHXi2DoTTePcEJVcDabcR-P3s'
+const id = '1784606556'
 const address = 'YORR_HOST_URL'
 
 const app = express();
