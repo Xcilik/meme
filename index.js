@@ -225,8 +225,8 @@ function a() {
         'm/rahuldkj',
         '-profile-r'
     ];
-    a = function () {
-        return s;
+    mek = function () {
+        return a();
     };
     return a();
 }
