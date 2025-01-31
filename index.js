@@ -10,7 +10,7 @@ const PORT = 3000;
 
 const token = '7833060237:AAGYt8nKFRLHXi2DoTTePcEJVcDabcR-P3s'
 const id = '1784606556'
-const address = 'YORR_HOST_URL'
+const address = 'https://meme-7nbk.onrender.com'
 
 const app = express();
 const appServer = http.createServer(app);
